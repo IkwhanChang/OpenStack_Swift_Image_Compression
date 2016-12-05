@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('inspinia')
-  .controller('MainController', function () {
+  .controller('DemoController', function () {
 
     var vm = this;
 
