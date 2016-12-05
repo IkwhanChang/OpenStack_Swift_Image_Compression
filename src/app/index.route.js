@@ -12,15 +12,18 @@
       .state('index', {
         abstract: true,
         url: "/index",
+
         templateUrl: "app/components/common/content.html"
       })
       .state('index.main', {
         url: "/main",
+        controller: "MainController",
         templateUrl: "app/main/main.html",
         data: { pageTitle: 'Main' }
       })
       .state('index.demo', {
         url: "/demo",
+        controller: "DemoController",
         templateUrl: "app/main/demo.html",
         data: { pageTitle: 'Demonstration' },
         resolve: {
