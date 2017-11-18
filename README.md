@@ -1,4 +1,4 @@
-# OpenStack_Swift_Image_Compression
+# openStack-swift-image-compression
 The new policy for Openstack Swift
 
 In this project, OpenStack Swift is used to providing web developers with a custom policy to automatically compress resources such as images. Recently, web developers are using resources that are cheaper and unlimited traffic with cloud storage service like Amazon AWS S3, which enables developers such as image servers to automatically compress resources and fix the speed of web pages thus we can increase the performance of web page.
